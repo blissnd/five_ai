@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  five_ai:
+    build: .
+    command: /fiveai/start_script.sh
+    ports:
+      - "5000:5000"
+
